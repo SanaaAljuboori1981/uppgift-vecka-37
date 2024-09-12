@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+   /* General styling for the body */
+body {
+    margin: 0; /* Removes default margin from body */
+}
+
+/* Styling for the header container */
+header {
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+}
+
+/* Styling for the top header section */
+header .top-header {
+    background-color: rgb(38, 38, 58); /* Dark background color */
+    display: flex;
+    justify-content: space-between; /* Space between logo and button */
+    align-items: center; /* Vertically centers items */
+    padding: 16px 32px; /* Padding around the top header */
+}
+
+/* Styling for the logo */
+header .logo {
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from the link */
+    font-size: 2em; /* Adjust font size as needed */
+}
+
+/* Styling for the button (optional) */
+header .top-header button {
+    padding: 4px 16px; /* Padding inside the button */
+    border-radius: 20px; /* Rounds the corners of the button */
+    border: none; /* Removes default border */
+}
+
+/* Styling for the bottom header section */
+header .bottom-header {
+    background-color:black; /* Sets the background color to blue */
+    height: 40px; /* Sets height of the navigation bar */
+    border-bottom: 1px solid: white; /* Adds a border at the bottom */
+}
+
+/* Styling for the navigation bar */
+.navigation {
+    display: flex;
+    justify-content: center; /* Centers the navigation links */
+    align-items: center; /* Vertically centers the links */
+    height: 100%; /* Makes the navigation bar take full height of its container */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    list-style: none; /* Removes bullet points */
+}
+
+/* Styling for navigation links */
+.navigation a {
+    color:black /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+    margin: 0 15px; /* Adds space between the links */
+    font-size: 1em; /* Adjust font size as needed */
+}
+
+/* Adds underline to links on hover */
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+    .yellow-banner {
+        background-color:grey
+        color: black; /* Text color */
+        padding: 10px 20px; /* Padding for spacing */
+        text-align: left; /* Align text to the left */
+        font-family: 'Poppins', sans-serif; /* Font family */
+        display: flex; /* Display flex for icon and text alignment */
+        align-items: center; /* Vertically center the icon and text */
+        font-size: 14px;
+        border-radius: 5px; /* Rounded edges */
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+       
+    }
+
+    .offer-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        background-color: #f9f9f9;
+    }
+    
+    .offer-text {
+        max-width: 45%;
+    }
+    
+    .offer-text h1 {
+        font-size: 2.5em;
+        color: #222;
+        margin-bottom: 20px;
+    }
+    
+    .offer-text p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        color: #555;
+    }
+    
+    .offer-button {
+        padding: 15px 30px;
+        background-color: #e53935;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    
+    .offer-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    .main-btn {
+        color:#f9f9f9
+        background-color:red
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 400;
+        display: inline-block;
+        padding: 100px 
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        transition: .07s ease;
+    
+    
+    }
+    .main-btn:hover {
+        background-color:#f9f9f9
+        transform: scale(1.1);
+    
+    }
+    
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        color:black
+        font-size: 2.7em;
+        padding: right 10px;px;
+    
+    }
+    
+    .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+    .main-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    gap: 1rem;
+    
+    }
+    
+    
+    .card {
+        background-color: blanchedalmond;
+        width: 21 25em;
+        box-shadow: white
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+    
+    }
+    
