@@ -66,8 +66,8 @@ header .bottom-header {
     text-decoration: underline;
 }
 
-.yellow-banner {
-    background-color: grey;
+.header-banner {
+    background-color: rgb(168, 154, 154);
     padding: 10px 20px;
     text-align: left;
     font-family: 'Poppins', sans-serif;
@@ -105,7 +105,7 @@ header .bottom-header {
 
 .offer-button {
     padding: 15px 30px;
-    background-color: #e53935;
+    background-color: #bf1b18;
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
@@ -125,7 +125,7 @@ header .bottom-header {
     font-size: 1.1em;
     font-weight: 400;
     display: inline-block;
-    padding: 100px;
+    padding: 30px;
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -134,18 +134,14 @@ header .bottom-header {
 
 }
 
-.main-btn:hover {
-    background-color: #f9f9f9;
-    transform: scale(1.1);
-}
-
 
 .title {
     display: flex;
     justify-content: center;
     color: black;
-    font-size: 2.7em;
-    padding: right 10px;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-right: 10px;
 }
 
 .content {
@@ -167,10 +163,8 @@ header .bottom-header {
 /* Card */
 .card {
     background-color: blanchedalmond;
-    width: 21 25em;
-    box-shadow: white;
+    width: 25em;
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-
 }
