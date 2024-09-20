@@ -44,6 +44,10 @@ header .bottom-header {
     height: 40px;
 }
 
+.top-header-image{
+height: 50px;
+}
+
 /*  Navigation bar */
 .navigation {
     display: flex;
