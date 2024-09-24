@@ -119,6 +119,7 @@ height: 50px;
 .offer-image img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 
