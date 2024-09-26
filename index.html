@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv-SE">
-
+ 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <title>Mathem</title>
-
-  <style>
-    body {
-      margin: 0;
-    }
-
-    .logo {
-      width: 140px;
-    }
-
-    button {
-      padding: 4px 16px;
-      border-radius: 20px;
-      border: none;
-    }
-
-    header .top-header {
-      background-color: rgb(38, 38, 58);
-      display: flex;
-      justify-content: space-between;
-      padding: 16px 32px;
-    }
-
-    header .top-header h1 {
-      color: white;
-    }
-
-    header .top-header button {}
-
-
-    header .bottom-header {
-      height: 40px;
-      background-color: white;
-      border-bottom: 1px solid black;
-    color:black
-
-    }
-
-    .bottom-header a {
-      color: black;
-    }
-  </style>
-  </head>
-
+</head>
+ 
 <body>
   <header>
     <!-- Top Header -->
@@ -65,8 +23,8 @@
       </div>
       <button class="cart-btn">0,00 kr</button>
     </div>
-
-    <!-- Bottom Navegation -->
+ 
+    <!-- Bottom Navigation -->
     <div class="bottom-header">
       <nav class="navigation">
         <a href="#">Kategorier</a>
@@ -74,64 +32,70 @@
         <a href="#">Recept</a>
         <a href="#">För företag</a>
       </nav>
-    </div>
+      <!-- Right Section (Logga In & Skapa Konto) -->
       <div class="Right-nav">
         <button class="login-btn">Logga In</button>
         <button class="signup-btn">Skapa Konto</button>
+      </div>
     </div>
-
+ 
     <!-- Banner -->
-    <div class="header-banner">
-      <i class="fas fa-gift"></i>
-      <span><strong>Ny här?</strong> Då bjuder vi på 200 kr rabatt och fri leverans. Skriv in rabattkoden
-        <strong>200NY</strong> i kassan när du handlar varor för minst 800 kr. Och få fri leverans i tre månader om du
-        handlar varor varje vecka.</span>
-    </div>
-  </header>
-
+<div class="header-banner">
+  <i class="fas fa-gift"></i>
+  <div class="banner-text">
+    <strong>Ny här? Då bjuder vi på 200 kr rabatt och fri leverans.</strong>
+    <p>
+      Skriv in rabattkoden <strong>200NY</strong> i kassan när du handlar varor för minst 800 kr. Och få fri leverans i tre månader om du handlar varor varje vecka.
+    </p>
+  </div>
+</div>
+ 
+ 
   <main>
     <section class="offer-section">
       <div class="offer-text">
         <h1>Vi kommer med det du behöver</h1>
         <p>Handla när och där det passar dig. Fyll på med mat, prylar och apotekvaror till riktigt schyssta priser, och få
           leverans till dörren från 0 kronor.</p>
-        <a href="#" class="offer-button">Se om vi levererar till dig</a>
+          <a href="#">
+            <button class="offer-button">Se om vi levererar till dig</button>
+          </a>
       </div>
       <div class="offer-image">
         <img src="assets/images/mat2.webp" alt="Man carrying food">
       </div>
     </section>
-
+ 
     <section class="cards" id="sortiment">
       <h2 class="title">Upptäck vårt stora sortiment</h2>
     </section>
-
+ 
     <section class="main-btn">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img src="assets/images/1.webp" class="card-img-top" alt="Dairy products">
         <div class="card-body">
           <h3 class="card-title">Prispressat</h3>
           <p class="card-text">Handla dina vardagsfavoriter, alltid till riktigt låga priser.</p>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
+ 
+      <div class="card">
         <img src="assets/images/2.webp" class="card-img-top" alt="Family with groceries">
         <div class="card-body">
           <h3 class="card-title">Enklare småbarnsliv</h3>
           <p class="card-text">Här hittar du allt från blöjor och välling till enkel vardagsmat för hela familjen.</p>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
+ 
+      <div class="card">
         <img src="assets/images/3.webp" class="card-img-top" alt="Vegetables">
         <div class="card-body">
           <h3 class="card-title">Frukt och grönt</h3>
           <p class="card-text">Njut av det bästa säsongen har att erbjuda, plockat av utbildade experter.</p>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
+ 
+      <div class="card">
         <img src="assets/images/4.webp" class="card-img-top" alt="Breads">
         <div class="card-body">
           <h3 class="card-title">Bröd och bageri</h3>
@@ -141,9 +105,9 @@
       </div>
     </section>
   </main>
-
+ 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-
+ 
 </html>
