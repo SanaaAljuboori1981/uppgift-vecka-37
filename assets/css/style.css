@@ -8,11 +8,9 @@
     scroll-behavior: smooth;
 }
 
-/* General styling for the body */
 body {
     margin: 0;
 }
-
 
 
 /* Header styling */
@@ -44,34 +42,94 @@ header .bottom-header {
     height: 40px;
 }
 
-.top-header-image{
-height: 50px;
-}
-
-/*  Navigation bar */
-.navigation {
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+  }
 
-.navigation a {
-    color:white;
+  .search-bar input[type="text"] {
+    width: 60%;
+    padding: 8px 12px;
+    border-radius: 10px 10px;
+    border: none;
+    outline: none;
+  }
+
+
+  header .cart-btn,
+  header .login-btn,
+  header .signup-btn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+  }
+
+
+  .cart-btn {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+
+
+  /* Navigation styling */
+  .bottom-header {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 32px;
+  }
+
+  .navigation a {
+    color: black;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 1em;
-}
+    margin-right: 20px;
+    font-size: 16px;
+  }
 
-.navigation a:hover {
+  .navigation a:hover {
     text-decoration: underline;
-}
+  }
+
+    /* Right section (Logga In & Skapa Konto) */
+    .Right-nav {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+  
+      .login-btn,
+      .signup-btn {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+      }
+  
+      .login-btn:hover,
+      .signup-btn:hover {
+        text-decoration: underline;
+      }
+       /* Right section */
+    .cart-btn {
+        background-color: red;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
 
 .header-banner {
-    background-color: rgb(241, 233, 233);
+    background-color: lightslategray
     padding: 10px 20px;
     text-align: left;
     font-family: 'Poppins', sans-serif;
